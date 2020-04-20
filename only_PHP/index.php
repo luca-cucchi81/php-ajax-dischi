@@ -13,9 +13,23 @@
         </nav>
 
         <main>
-            <?php
-                include 'data.php';
-             ?>
+
+            <div class="container">
+                <?php
+                    include 'data.php';
+                 ?>
+
+                 <?php foreach ($db as $key => $album) { ?>
+                     <div class="cd">
+                        <img src=<?php echo $album['cover']; ?> alt="cover">
+                        <h3><?php echo $album['title']; ?></h3>
+                        <span><?php echo $album['artist']; ?></span>
+                        <small><?php echo $album['year']; ?></small>
+                    </div>
+                <?php } ?>
+
+            </div>
+
         </main>
     </body>
 </html>

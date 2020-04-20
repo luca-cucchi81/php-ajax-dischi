@@ -45,5 +45,33 @@ nav h2 {
 
 /* STILE MAIN */
 
+.container {
+  width: 70%;
+  margin: 40px auto;
+  padding: 10px 0;
+  background: #2e3a46;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container .cd {
+  width: 20%;
+  height: 400px;
+  margin: 10px 10px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #1E2D3B;
+}
+
+.container .cd h3 {
+  padding: 30px 0;
+}
+
 /* STILE FOOTER */
 
