@@ -13,7 +13,6 @@
         </nav>
 
         <main>
-
             <div class="container">
                 <?php
                     include 'data.php';
@@ -29,7 +28,6 @@
                 <?php } ?>
 
             </div>
-
         </main>
     </body>
 </html>
