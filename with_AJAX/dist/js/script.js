@@ -4,7 +4,7 @@ $.ajax({
     url: 'server.php',
     method: 'GET',
     success: function (db) {
-        getAlbums(db);
+        getAlbums(db);     
     },
     error: function (error) {
         alert('Attenzione errore');
