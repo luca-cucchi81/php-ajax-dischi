@@ -1,0 +1,12 @@
+@import "_variables";
+@import "_mixins";
+/* RESET CSS */
+@import "_reset";
+/* TAG GENERICI */
+@import "_common";
+/* STILE HEADER */
+@import "partials/_header";
+/* STILE MAIN */
+@import "partials/_main";
+/* STILE FOOTER */
+@import "partials/_footer";
