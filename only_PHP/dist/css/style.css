@@ -37,6 +37,9 @@ nav #logo {
 }
 
 nav h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   color: #fff;
 }
 
