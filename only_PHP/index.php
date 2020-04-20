@@ -11,5 +11,11 @@
             <img id="logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Fgreen-app-spotify-icon-0.png&f=1&nofb=1" alt="spotify-logo">
             <h2>Luca's Spotify</h2>
         </nav>
+
+        <main>
+            <?php
+                include 'data.php';
+             ?>
+        </main>
     </body>
 </html>
