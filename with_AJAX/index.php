@@ -14,9 +14,18 @@
         </nav>
 
         <main>
-            <div class="container">
 
-            </div>
+            <div class="container"></div>
+
+            <script id="card-template" type="text/x-handlebars-template">
+                 <div class="cd">
+                    <img src="{{cover}}" alt="">
+                    <h3>{{title}}</h3>
+                    <span>{{artist}}</span>
+                    <small>{{year}}</small>
+                </div>
+            </script>
+
         </main>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
