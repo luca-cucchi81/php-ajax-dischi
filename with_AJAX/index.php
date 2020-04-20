@@ -2,6 +2,7 @@
 <html lang="it" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" charset="utf-8"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="dist/css/style.css">
         <title>Luca's Spotify</title>
@@ -17,5 +18,8 @@
 
             </div>
         </main>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="dist/js/script.js" charset="utf-8"></script>
     </body>
 </html>
