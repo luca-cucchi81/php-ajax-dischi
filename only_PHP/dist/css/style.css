@@ -71,6 +71,12 @@ nav h2 {
 
 .container .cd h3 {
   padding: 30px 0;
+  color: #fff;
+}
+
+.container .cd span,
+.container .cd small {
+  color: grey;
 }
 
 /* STILE FOOTER */
