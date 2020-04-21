@@ -59,7 +59,19 @@
             'title' => 'Raised on Radio',
             'artist' => 'Journey',
             'year' => '1986'
-        ]
+        ],
+        [
+            'cover' => 'https://upload.wikimedia.org/wikipedia/en/4/4f/Joe_Bonamassa_-_You_%26_Me.jpg',
+            'title' => 'You & Me',
+            'artist' => 'Joe Bonamassa',
+            'year' => '2006'
+        ],
+        [
+            'cover' => 'https://upload.wikimedia.org/wikipedia/en/f/f0/ScorpionsCrazyWorld.jpg',
+            'title' => 'Crazy World',
+            'artist' => 'Scorpions',
+            'year' => '1990'
+        ],
 
     ]
 
