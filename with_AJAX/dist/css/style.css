@@ -34,6 +34,7 @@ nav {
 nav #logo {
   height: 60px;
   padding-right: 30px;
+  cursor: pointer;
 }
 
 nav h2 {
