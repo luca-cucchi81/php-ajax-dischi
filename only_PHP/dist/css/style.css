@@ -68,6 +68,11 @@ nav h2 {
   background: #1E2D3B;
 }
 
+.container .cd img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .container .cd h3 {
   padding: 30px 0;
   color: #fff;
